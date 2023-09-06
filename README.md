@@ -1,5 +1,4 @@
-# shopping-list
-Dekalb Farmer's Market Shopping List Generator
+# Dekalb Farmer's Market Shopping List Generator
 
 This is a simple html page that enables you to generate a simple shopping list, without having to log-into an app. The goal is to generate an easy-to-copy list that you can then send via your [favorite messaging app](https://telegram.org/).
 
