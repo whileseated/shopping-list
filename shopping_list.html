@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Two Column List</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="column left-column">
+        <p>Paste last week's list here, or add your items one by one.</p>
+        <!-- Pre-seed List -->
+        <!--
+        <div class="list-item">
+            <input type="checkbox">
+            <span contenteditable="true">Item 1</span>
+        </div>
+        -->
+        
+        <!-- List Items will be added here -->
+        <textarea id="bulkAddTextArea" placeholder="Paste your list here..."></textarea>
+        <button id="populateListButton">Generate List</button><br><br>
+        
+        <input type="text" id="newItemInput" placeholder="Add new item..." />
+        <button id="addItemButton">Add Item</button>
+        <button id="selectAllButton">Select All Items</button>
+    </div>
+    <div class="column right-column">
+        <div id="rightList"></div>
+        <button id="copyListButton">Copy Your List</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
